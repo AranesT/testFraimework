@@ -18,9 +18,9 @@
         <compiler.version>1.8</compiler.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <allure.version>2.13.9</allure.version>
-        <allure-maven.version>2.</allure-maven.version>
-        <selenide.version>5.23.3</selenide.version>
+        <allure.version>2.13.2</allure.version>
+        <allure-maven.version>2.10.0</allure-maven.version>
+        <selenide.version>5.18.0</selenide.version>
         <jumit.platform.version>1.7.2</jumit.platform.version>
         <junit.jupiter.version>5.7.0</junit.jupiter.version>
         <junit.vintage.version>5.7.0</junit.vintage.version>
@@ -31,7 +31,7 @@
         <owner.version>1.0.10</owner.version>
         <jsch.version>0.1.55</jsch.version>
         <sshd-core.version>2.7.0</sshd-core.version>
-        <allureJunit5.version>2.19.0</allureJunit5.version>
+        <allureJunit5.version>2.14.0</allureJunit5.version>
         <json.version>20210307</json.version>
     </properties>
 
@@ -114,6 +114,16 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.5</version>
         </dependency>
     </dependencies>
 

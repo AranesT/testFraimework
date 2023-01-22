@@ -27,11 +27,6 @@ public class WebDriverInitialization {
             FirefoxOptions options = new FirefoxOptions();
             options.setCapability("browserName", "firefox");
             options.setCapability("browserVersion", "88.0");
-//            options.setCapability("selenoid:options", Map.<String, Object>of(
-//                    "sessionTimeout", "150m",
-//                    "enableVNC", true,
-//                    "enableVideo", false
-//            ));
             RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
             driver.navigate().to("https://bo.vtb24.ru/login");
         } else {
@@ -55,9 +50,9 @@ public class WebDriverInitialization {
     @Step("Завершение автотеста")
     @AfterEach
     void end() {
-       // AllureHelper.takeScreenshot("Завершение автотеста");
-//        WebDriverRunner.closeWindow();
-//        WebDriverRunner.closeWebDriver();
+        AllureHelper.takeScreenshot("Завершение автотеста");
+        WebDriverRunner.closeWindow();
+        WebDriverRunner.closeWebDriver();
     }
 
 }
