@@ -16,7 +16,6 @@ public class Configuration {
     private static final Properties properties;
 
     static {
-
         properties = new Properties();
         try (InputStream inputStream = Configuration.class.getResourceAsStream(System.getProperty(SYSTEM_KEY, CONFIGURATION_FILE))) {
             properties.load(inputStream);
@@ -27,9 +26,5 @@ public class Configuration {
 
     public static String getConfigurationValue(String key) {
         return ((System.getProperty(key) == null) ? properties.getProperty(key) : System.getProperty(key));
-    }
-
-    public Configuration() {
-
     }
 }

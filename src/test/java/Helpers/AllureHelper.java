@@ -1,6 +1,6 @@
 package Helpers;
 
-import Hooks.WebDriverInitialization;
+import Hooks.WebUI.WebDriverInitialization;
 import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;

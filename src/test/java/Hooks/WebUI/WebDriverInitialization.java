@@ -1,4 +1,4 @@
-package Hooks;
+package Hooks.WebUI;
 
 import Helpers.AllureHelper;
 import com.codeborne.selenide.Configuration;
@@ -10,12 +10,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.platform.commons.util.StringUtils;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Map;
 
 public class WebDriverInitialization {
 
@@ -50,10 +48,11 @@ public class WebDriverInitialization {
     @Step("Завершение автотеста")
     @AfterEach
     void end() {
-        AllureHelper.takeScreenshot("Завершение автотеста");
-        WebDriverRunner.closeWindow();
-        WebDriverRunner.closeWebDriver();
+        if (StringUtils.isBlank(Helpers.Configuration.getConfigurationValue("selenoidUrl"))) {
+            AllureHelper.takeScreenshot("Завершение автотеста");
+            WebDriverRunner.closeWindow();
+            WebDriverRunner.closeWebDriver();
+        }
     }
-
 }
 

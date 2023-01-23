@@ -22,7 +22,7 @@ public class BasicElementSteps {
         AllureHelper.takeScreenshot("Клик по элементу " + elementName + ". Скриншот ПОСЛЕ");
     }
 
-    @Step("Заполнение поля {elementName} значением {value}")
+    @Step("Заполнение поля \"{elementName}\" значением \"{value}\"")
     public void sendKey(String elementName, SelenideElement element, String value) {
         AllureHelper.takeScreenshot("Заполнение поля " + elementName + " значением " + value + ". Скриншот ДО");
         element.shouldBe(Condition.visible).sendKeys(value);
