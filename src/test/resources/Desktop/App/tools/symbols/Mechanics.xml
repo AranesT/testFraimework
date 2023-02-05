@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<Group Version="1.0" xmlns="Mechanics">
+    <Enabled>False</Enabled>
+    <ItemIdx>23</ItemIdx>
+    <Item xmlns="m">
+        <Description>mass</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#kg</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;m">
+        <Description>reduced mass</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#kg</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;r">
+        <Description>mass density</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#kg∙m⁻³</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;u">
+        <Description>specific volume</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m³∙kg⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="p">
+        <Description>pressure</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="L">
+        <Description>angular momentum</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#J∙s</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="J">
+        <Description>moment of inertia</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#kg∙m²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="F">
+        <Description>force</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#N</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="M">
+        <Description>moment of a force</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#N∙m</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="E">
+        <Description>modulus of elasticity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="W">
+        <Description>work</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#J</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="p">
+        <Description>pressure</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="G">
+        <Description>shear modulus</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;s">
+        <Description>normal stress</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;t">
+        <Description>shear stress</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="E">
+        <Description>modulus of elasticity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="G">
+        <Description>shear modulus</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="K">
+        <Description>bulk modulus</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;h">
+        <Description>viscosity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Pa∙s</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;f">
+        <Description>fluidity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m∙kg⁻¹s</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;n">
+        <Description>kinematic viscosity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m²∙s⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="P">
+        <Description>power</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#W</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    </Group>

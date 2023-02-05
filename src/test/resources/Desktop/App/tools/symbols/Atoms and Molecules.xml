@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Group Version="1.0" xmlns="Atoms and Molecules">
+    <Enabled>False</Enabled>
+    <ItemIdx>10</ItemIdx>
+    <Item xmlns="m">
+        <Description>electron rest mass</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#kg</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;D">
+        <Description>mass excess</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#kg</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="e">
+        <Description>elementary charge</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#C</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="h">
+        <Description>Planck constant</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#J∙s</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="a">
+        <Description>Bohr radius</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#n</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="E">
+        <Description>Hartree energy</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#J</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;m">
+        <Description>magnetic dipole moment of a molecule</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#JT⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;x">
+        <Description>magnetizability of a molecule</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#JT⁻²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;g">
+        <Description>magnetogyric ratio</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#s⁻¹∙T⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    </Group>

@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<Group Version="1.0" xmlns="Space">
+    <Enabled>False</Enabled>
+    <ItemIdx>21</ItemIdx>
+    <Item xmlns="x">
+        <Description>space coordinates</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="y">
+        <Description>space coordinates</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="z">
+        <Description>space coordinates</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="l">
+        <Description>length</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit>km</Unit>
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="h">
+        <Description>height</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="b">
+        <Description>breadth</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;d">
+        <Description>thickness</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="d">
+        <Description>diameter</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="r">
+        <Description>radius</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="d">
+        <Description>diameter</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="s">
+        <Description>length of arc</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="p">
+        <Description>cylindrical coordinates</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="A">
+        <Description>area</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m²</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="V">
+        <Description>volume</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m³</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;a">
+        <Description>plane angle</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#rad</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;b">
+        <Description>plane angle</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#rad</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;g">
+        <Description>plane angle</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#rad</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;Q">
+        <Description>plane angle</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#rad</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;f">
+        <Description>plane angle</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#rad</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;W">
+        <Description>solid angle</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#sr</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    </Group>

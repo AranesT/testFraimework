@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Group Version="1.0" xmlns="Time">
+    <Enabled>False</Enabled>
+    <ItemIdx>9</ItemIdx>
+    <Item xmlns="t">
+        <Description>time</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#s</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="T">
+        <Description>period</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#s</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="f">
+        <Description>frequency</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Hz</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;w">
+        <Description>angular velocity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#s⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;t">
+        <Description>space coordinates</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#s</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;w">
+        <Description>angular velocity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#s⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>False</Enabled>
+    </Item>
+    <Item xmlns="c">
+        <Description>velocity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m∙s⁻¹</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="a">
+        <Description>acceleration</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#m∙s⁻²</Format>
+        <PrefixStart xmlns="Nano">7</PrefixStart>
+        <PrefixEnd xmlns="Kilo">11</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    </Group>

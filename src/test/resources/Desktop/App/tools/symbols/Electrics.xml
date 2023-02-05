@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<Group Version="1.0" xmlns="Electrics">
+    <Enabled>False</Enabled>
+    <ItemIdx>34</ItemIdx>
+    <Item xmlns="Q">
+        <Description>electric charge</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#C</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;r">
+        <Description>resistivity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Ω∙m</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;s">
+        <Description>surface charge density</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#C∙m⁻²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="U">
+        <Description>electric potential</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#V</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="E">
+        <Description>electromotive force</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#V</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;E">
+        <Description>electric field strength</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#V∙m⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;Y">
+        <Description>electric flux</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#C</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="D">
+        <Description>electric displacement</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#C∙m⁻²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="C">
+        <Description>capacitance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#F</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;e">
+        <Description>permittivity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#F∙m⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;R">
+        <Description>dielectric polarization</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#C∙m⁻²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="I">
+        <Description>current</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#A</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="J">
+        <Description>current density</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#A∙m⁻²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;B">
+        <Description>magnetic flux density</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#T</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;f">
+        <Description>magnetic flux</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Wb</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;H">
+        <Description>magnetic field strength</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#A∙m⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;m">
+        <Description>permeability</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#H∙m⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="M">
+        <Description>mutual inductance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#H</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="m">
+        <Description>magnetic dipole moment</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#A∙m⁻²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="R">
+        <Description>electric resistance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Ω</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="G">
+        <Description>conductance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>S</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;d">
+        <Description>loss angle</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#rad</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="X">
+        <Description>reactance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Ω</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="Z">
+        <Description>impedance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Ω</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="Y">
+        <Description>admittance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#S</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="B">
+        <Description>susceptance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#S</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;r">
+        <Description>resistivity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Ω∙m</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="&#x1B;k">
+        <Description>conductivity</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>S∙m⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="L">
+        <Description>self-inductance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#H</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="M">
+        <Description>mutual inductance</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#H</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="P">
+        <Description>power</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#W</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="A">
+        <Description>magnetic vector potential</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#Wb∙m⁻¹</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    <Item xmlns="S">
+        <Description>Poynting vector</Description>
+        <DisplayMode xmlns="Prefix">4</DisplayMode>
+        <DisplaySubMode xmlns="Nil">-1</DisplaySubMode>
+        <Places>0</Places>
+        <Unit />
+        <Format>#W∙m⁻²</Format>
+        <PrefixStart xmlns="AutoPrefix">1</PrefixStart>
+        <PrefixEnd xmlns="Nil">0</PrefixEnd>
+        <Enabled>True</Enabled>
+    </Item>
+    </Group>

@@ -11,29 +11,33 @@ import static com.codeborne.selenide.Selenide.open;
 public class BasicElementSteps {
 
     @Step("Перейти на страницу \"{url}\"")
-    public void goToUrl(String url) {
+    public BasicElementSteps goToUrl(String url) {
         open(url);
+        return this;
     }
 
     @Step("Клик по элементу \"{elementName}\"")
-    public void clickElement(String elementName, SelenideElement element) {
+    public BasicElementSteps clickElement(String elementName, SelenideElement element) {
         AllureHelper.takeScreenshot("Клик по элементу " + elementName + ". Скриншот ДО");
         element.shouldBe(Condition.visible).click();
         AllureHelper.takeScreenshot("Клик по элементу " + elementName + ". Скриншот ПОСЛЕ");
+        return this;
     }
 
     @Step("Заполнение поля \"{elementName}\" значением \"{value}\"")
-    public void sendKey(String elementName, SelenideElement element, String value) {
+    public BasicElementSteps sendKey(String elementName, SelenideElement element, String value) {
         AllureHelper.takeScreenshot("Заполнение поля " + elementName + " значением " + value + ". Скриншот ДО");
         element.shouldBe(Condition.visible).sendKeys(value);
         AllureHelper.takeScreenshot("Заполнение поля " + elementName + " значением " + value + ". Скриншот ПОСЛЕ");
+        return this;
     }
 
     @Step("Заполнение поля \"{elementName}\" значением \"{value}\" и нажатие Enter")
-    public void sendKeyEnter(String elementName, SelenideElement element, String value) {
+    public BasicElementSteps sendKeyEnter(String elementName, SelenideElement element, String value) {
         AllureHelper.takeScreenshot("Заполнение поля " + elementName + " значением " + value + ". Скриншот ДО");
         element.shouldBe(Condition.visible).sendKeys(value + "\n");
         AllureHelper.takeScreenshot("Заполнение поля " + elementName + " значением " + value + ". Скриншот ПОСЛЕ");
+        return this;
     }
 
     @Step("Получение значения из поля \"{elementName}\"")

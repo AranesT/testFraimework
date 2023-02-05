@@ -9,12 +9,13 @@ public class MainPageSteps extends Pages.Google.MainPage {
     BasicElementSteps basicElementSteps = new BasicElementSteps();
     String googleUrl = Configuration.getConfigurationValue("googleUrl");
 
-    @Step("Поиск {valueForSearch} в Google")
+    @Step("Поиск \"{valueForSearch}\" в Google")
     public void searchGoogle(String valueForSearch) {
-        basicElementSteps.goToUrl(googleUrl);
-        basicElementSteps.clickElement("Строка поиска", searchField());
-        basicElementSteps.sendKeyEnter("Поле поиска", searchField(), valueForSearch);
-        basicElementSteps.getText("Описание", description());
+        basicElementSteps
+                .goToUrl(googleUrl)
+                .clickElement("Строка поиска", searchField())
+                .sendKeyEnter("Поле поиска", searchField(), valueForSearch)
+                .getText("Описание", description());
     }
 
 }

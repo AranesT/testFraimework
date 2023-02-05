@@ -13,6 +13,7 @@ git checkout master
 git pull origin master
 REM gitlab_testFreim - ВАШЕ_НАЗВАНИЕ_УДАЛЕННОГО_РЕПОЗИТОРИЯ_ДЛЯ_ЛОКАЛЬНОГО_ИПОЛЬЗОВАНИЯ
 git push --force --progress gitlab_testFreim HEAD:master
+REM В случае, если нужно пушить несколько веток, повторить шаги, идущие после :loop до текущего (изменив название ветки, конечно же)
 
 REM Время повторения, секунды
 timeout /t 1200
