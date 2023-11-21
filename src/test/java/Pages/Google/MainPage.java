@@ -12,5 +12,4 @@ public class MainPage {
     public SelenideElement description() {
         return XpathBuilder.elementTextFollowing("Описание", "span");
     }
-
 }

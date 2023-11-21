@@ -26,7 +26,6 @@ public class WebDriverInitialization {
             options.setCapability("browserName", "firefox");
             options.setCapability("browserVersion", "88.0");
             RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
-            driver.navigate().to("https://bo.vtb24.ru/login");
         } else {
             System.setProperty("webdriver.chrome.driver", webDriverLocation);
             System.setProperty("selenide.browser", "Chrome");
@@ -55,4 +54,3 @@ public class WebDriverInitialization {
         }
     }
 }
-
