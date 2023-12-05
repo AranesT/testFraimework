@@ -10,5 +10,6 @@ public class AssertionsWrapper {
         Assertions.assertEquals(expectedValue,
                 realValue,
                 message);
+
     }
 }
